@@ -22,9 +22,9 @@
 let id = Symbol("1234")
 let uid = Symbol("0987")
 
-console.log(typeof id);
-console.log(typeof uid);
-console.log(id === uid);
+// console.log(typeof id);
+// console.log(typeof uid);
+// console.log(id === uid);
 
 // use of arrays in JS
 
@@ -48,3 +48,27 @@ function thisIsMyFunction(){
 
     console.log("Hello World , hahaha.");
 }
+
+
+// console.log(typeof (array1));
+// console.log(array1);
+
+// Stack is used in Primitive Data Type (makes a copy of a variable)
+// Heap memory is used in Non-Primitive DataType (makes a reference of that variable , points it); 
+// Note-: Any changes made into that variable will result permanent (Heap)
+// Note-: "                                  " will have no change as it was a copy not an original value; 
+
+let user1 = {
+
+    userId: "vaibhav@google.com",
+    upiId: "vaibhav@yabl"
+}
+
+
+let user2 = user1;
+
+user2.userId = "vigeelante1";
+
+console.log(user2);
+console.log(user1);
+
