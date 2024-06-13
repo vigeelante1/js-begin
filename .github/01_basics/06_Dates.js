@@ -10,4 +10,11 @@ let mydate = new Date();
 
 let myCreatedDate = new Date(2024 , 11 , 18 , 6 , 5);
 
-console.log(myCreatedDate.toLocaleString());
+// console.log(myCreatedDate.toLocaleString());
+
+let myTimeStamp = Date.now()
+
+// console.log(myTimeStamp.toFixed(2));
+
+console.log(mydate.getDate());
+console.log(mydate.getMonth());
